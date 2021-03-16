@@ -1,8 +1,9 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  background-color: #95dada;
-  border: 1px solid grey;
+  background-color: #34b7df;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0rem 0rem 0rem 0.1rem rgba(0, 0, 0, 0.14), 0rem 0.1rem 1.2rem 0.4rem rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   padding: 25px;
   cursor: pointer;
