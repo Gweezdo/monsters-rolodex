@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gweezdo.github.io/monsters-rolodex",
+  "homepage": "https://s3-ap-southeast-2.amazonaws.com/zjaktheron.com/react_projects/monsters_rolodex/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.1.0",
@@ -18,8 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run-script build",
-    "deploy": "gh-pages -d build"
+    "deploy": "aws s3 sync build/ s3://zjaktheron.com/react_projects/monsters_rolodex --acl public-read"
   },
   "eslintConfig": {
     "extends": [
